@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.wipro.auto.saucedemo.testcases.LoginScenario">
+      <class name="org.wipro.auto.saucedemo.testcases.CreateNewAccountScenario">
         <methods>
           <include name="closeBrowser"/>
+          <include name="tc01_validate_usercan_create_new_account"/>
           <include name="launchBrowser"/>
-          <include name="tc01_validate_loginfunc_valid_credntials"/>
         </methods>
-      </class> <!-- org.wipro.auto.saucedemo.testcases.LoginScenario -->
+      </class> <!-- org.wipro.auto.saucedemo.testcases.CreateNewAccountScenario -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
